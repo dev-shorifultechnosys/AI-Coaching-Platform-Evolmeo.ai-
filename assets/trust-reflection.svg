@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Reflective coaching journal on a warm desk</title>
+  <desc id="desc">Editorial top-down illustration of an open notebook, pen, coffee cup and plant with warm natural light.</desc>
+  <defs>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7c3a4"/>
+      <stop offset="0.52" stop-color="#c7aa82"/>
+      <stop offset="1" stop-color="#a8845f"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f2eadc"/>
+    </linearGradient>
+    <radialGradient id="coffee" cx="46%" cy="40%" r="62%">
+      <stop offset="0" stop-color="#8b5a32"/>
+      <stop offset="0.72" stop-color="#5d381f"/>
+      <stop offset="1" stop-color="#3d2518"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0b649"/>
+      <stop offset="1" stop-color="#ad7205"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#46331f" flood-opacity=".24"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <pattern id="grain" width="70" height="70" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="13" r="1.3" fill="#fff" opacity=".12"/>
+      <circle cx="31" cy="47" r="1" fill="#4b3522" opacity=".06"/>
+      <circle cx="58" cy="18" r="1.5" fill="#fff" opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#desk)"/>
+  <rect width="1200" height="1500" fill="url(#grain)"/>
+
+  <!-- warm window light -->
+  <path d="M-80 180 L560 -60 L1220 660 L1220 1040 Z" fill="#f4d798" opacity=".20"/>
+  <ellipse cx="1020" cy="190" rx="330" ry="250" fill="#ffecc5" opacity=".18" filter="url(#soft)"/>
+
+  <!-- plant -->
+  <g transform="translate(900 140)" filter="url(#shadow)">
+    <ellipse cx="122" cy="178" rx="116" ry="52" fill="#6b614d" opacity=".28"/>
+    <path d="M110 310 C70 170 75 80 112 4" fill="none" stroke="#445440" stroke-width="15" stroke-linecap="round"/>
+    <path d="M102 132 C50 108 15 60 28 18 C78 23 117 59 124 110 Z" fill="#60705b"/>
+    <path d="M114 92 C144 35 194 10 236 25 C229 77 191 112 136 119 Z" fill="#52664f"/>
+    <path d="M98 208 C44 196 10 160 12 119 C64 112 109 137 129 184 Z" fill="#73806b"/>
+    <path d="M123 181 C164 131 211 118 247 139 C231 188 193 215 139 216 Z" fill="#5b7358"/>
+    <ellipse cx="116" cy="309" rx="98" ry="34" fill="#87765f"/>
+    <path d="M31 299 L202 299 L177 415 Q115 444 56 416 Z" fill="#efe8da"/>
+    <ellipse cx="116" cy="299" rx="85" ry="26" fill="#d8cdbb"/>
+  </g>
+
+  <!-- cup -->
+  <g transform="translate(760 980)" filter="url(#shadow)">
+    <ellipse cx="176" cy="210" rx="165" ry="48" fill="#4f3927" opacity=".18"/>
+    <path d="M72 54 Q55 244 103 296 Q174 332 246 297 Q294 244 276 54 Z" fill="#f4efe5"/>
+    <ellipse cx="174" cy="58" rx="105" ry="39" fill="#e2dacb"/>
+    <ellipse cx="174" cy="59" rx="82" ry="28" fill="url(#coffee)"/>
+    <path d="M275 106 C357 91 369 231 278 239" fill="none" stroke="#eee7db" stroke-width="35" stroke-linecap="round"/>
+    <path d="M132 56 C141 36 159 38 170 57 C182 38 198 40 209 57" fill="none" stroke="#c9a879" stroke-width="5" opacity=".55"/>
+  </g>
+
+  <!-- notebook -->
+  <g transform="translate(100 260) rotate(-4 440 500)" filter="url(#shadow)">
+    <rect x="50" y="40" width="840" height="960" rx="44" fill="#8f7453" opacity=".22"/>
+    <rect x="22" y="16" width="840" height="960" rx="44" fill="url(#paper)"/>
+    <path d="M442 36 C424 286 423 704 440 956" fill="none" stroke="#d8ccb8" stroke-width="4"/>
+    <path d="M455 36 C474 286 473 704 457 956" fill="none" stroke="#fff" stroke-width="3" opacity=".9"/>
+    <rect x="70" y="82" width="310" height="24" rx="12" fill="#c8982e" opacity=".18"/>
+    <text x="73" y="102" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#a46b00">TODAY'S REFLECTION</text>
+    <text x="72" y="180" font-family="Georgia, serif" font-size="55" font-weight="700" fill="#241e17">What would feel</text>
+    <text x="72" y="244" font-family="Georgia, serif" font-size="55" font-weight="700" fill="#241e17">clearer tomorrow?</text>
+    <path d="M74 304 H366" stroke="#c9bba8" stroke-width="3"/>
+    <path d="M74 354 H390" stroke="#d5c9b8" stroke-width="3"/>
+    <path d="M74 404 H354" stroke="#d5c9b8" stroke-width="3"/>
+    <path d="M74 454 H382" stroke="#d5c9b8" stroke-width="3"/>
+    <path d="M74 504 H332" stroke="#d5c9b8" stroke-width="3"/>
+    <rect x="74" y="580" width="294" height="168" rx="24" fill="#f2e6c8"/>
+    <text x="104" y="625" font-family="Arial, sans-serif" font-size="16" letter-spacing="2.5" fill="#9c6800">ONE NEXT STEP</text>
+    <text x="104" y="680" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#30271d">Name the trade-off</text>
+    <text x="104" y="718" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#30271d">before deciding.</text>
+
+    <text x="505" y="110" font-family="Arial, sans-serif" font-size="15" letter-spacing="2.2" fill="#7b7369">NOTICE</text>
+    <circle cx="520" cy="170" r="8" fill="#bf8611"/>
+    <text x="548" y="180" font-family="Arial, sans-serif" font-size="21" fill="#393229">What matters most?</text>
+    <circle cx="520" cy="235" r="8" fill="#bf8611"/>
+    <text x="548" y="245" font-family="Arial, sans-serif" font-size="21" fill="#393229">What are you avoiding?</text>
+    <circle cx="520" cy="300" r="8" fill="#bf8611"/>
+    <text x="548" y="310" font-family="Arial, sans-serif" font-size="21" fill="#393229">What can you carry forward?</text>
+    <path d="M505 382 H796" stroke="#d4c7b5" stroke-width="3"/>
+    <path d="M505 430 H812" stroke="#d4c7b5" stroke-width="3"/>
+    <path d="M505 478 H766" stroke="#d4c7b5" stroke-width="3"/>
+    <path d="M505 526 H802" stroke="#d4c7b5" stroke-width="3"/>
+    <path d="M505 574 H742" stroke="#d4c7b5" stroke-width="3"/>
+    <rect x="505" y="680" width="304" height="132" rx="22" fill="#1a1a14"/>
+    <text x="535" y="724" font-family="Arial, sans-serif" font-size="15" letter-spacing="2.4" fill="#d4a83e">CARRY IT FORWARD</text>
+    <text x="535" y="770" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#fffaf0">One useful next step</text>
+  </g>
+
+  <!-- pen -->
+  <g transform="translate(575 850) rotate(31)" filter="url(#shadow)">
+    <rect x="0" y="0" width="42" height="420" rx="21" fill="#161813"/>
+    <rect x="5" y="32" width="32" height="230" rx="16" fill="url(#gold)"/>
+    <path d="M0 420 L21 486 L42 420 Z" fill="#171611"/>
+  </g>
+
+  <!-- small trust chip -->
+  <g transform="translate(90 1260)" filter="url(#shadow)">
+    <rect width="600" height="118" rx="30" fill="#fffdf9" opacity=".96"/>
+    <circle cx="66" cy="59" r="31" fill="#f1e4bf"/>
+    <path d="M52 58 l10 10 20 -24" fill="none" stroke="#9b6700" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="120" y="49" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2a241d">Illustrative coaching moment</text>
+    <text x="120" y="78" font-family="Arial, sans-serif" font-size="15" fill="#746a5e">A calmer question can make the next step clearer.</text>
+  </g>
+</svg>
